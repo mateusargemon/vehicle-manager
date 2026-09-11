@@ -6,7 +6,7 @@ import string
 
 # Define o caminho do arquivo JSON na mesma pasta onde este script está salvo
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-GARAGE_FILE = os.path.join(BASE_DIR, "garage.json")
+GARAGE_FILE = os.path.join(BASE_DIR, "data", "garage.json")
 
 try: # se o arquivo existir, abre e carrega o conteúdo
     with open(GARAGE_FILE, "r") as archive:
